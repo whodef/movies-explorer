@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    font-family: 'Inter', 'Serif', sans-serif;
+}
+
+.app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    justify-items: center;
+}
+
+.app__link {
+    text-decoration: none;
+}
+
+.app__link:hover {
+    opacity: .7;
+    transition: opacity .4s ease-in;
+}

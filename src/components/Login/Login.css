@@ -1,0 +1,43 @@
+.account-form__label {
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #a0a0a0;
+}
+
+.account-form__label:last-of-type {
+    margin-bottom: auto;
+}
+
+.account-form__input {
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    outline: 1px solid rgba(43, 224, 128, 0);
+    transition: outline 400ms;
+    background: transparent;
+    border-bottom: 1px solid #E8E8E8;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.account-form__input:last-of-type {
+    margin: 0;
+}
+
+.account-form__input:active {
+    background-color: transparent;
+}
+
+.account-form__input:focus {
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+}
+
+.account-form__input_error {
+    color: #FF4062;
+}

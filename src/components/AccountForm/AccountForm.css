@@ -1,0 +1,152 @@
+.account-form {
+    margin: 0 auto;
+    padding: 74px 0 70px;
+    max-width: 396px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-form__logo {
+    margin: 0 0 35px;
+    width: 38px;
+    height: 38px;
+    display: block;
+}
+
+.account-form__container {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.account-form__title {
+    margin: 40px 0 35px;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.account-form__input-area {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.account-form__label {
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #A0A0A0;
+}
+
+.account-form__error-message {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FF4062;
+}
+
+.account-form__button {
+    margin: 135px 0 0;
+    padding: 13px 124px;
+    max-width: 396px;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(124px, max-content));
+}
+
+.account-form__button_disabled {
+    background: #F8F8F8;
+    color: #000000;
+    opacity: .8;
+    cursor: unset;
+}
+
+.account-form__caption-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.account-form__caption {
+    margin: 20px 0 0;
+    align-self: center;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+.account-form__caption-link {
+    text-decoration: none;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 400px) {
+    .account-form {
+        margin: 0 auto;
+        padding: 55px 0 0;
+    }
+
+    .account-form__logo {
+        margin: 0 0 50px;
+    }
+
+    .account-form__title {
+        margin: 50px 0 35px;
+    }
+
+    .account-form__container {
+        max-width: 260px;
+        align-items: center;
+    }
+
+    .account-form__input-area {
+        margin: 46px 0 0;
+    }
+
+    .account-form__button {
+        margin: 350px 0 0;
+        padding: 15px 68px;
+        max-width: 260px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .account-form__caption {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .account-form__caption-link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

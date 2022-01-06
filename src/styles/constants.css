@@ -1,0 +1,14 @@
+:root {
+    /* Цвета палитры */
+    --color-transparent: transparent;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-violet: #F3C1F8;
+
+
+    /* Типографика используемых шрифтов и их параметры */
+    --font-fontFamily: 'Inter', 'Serif', sans-serif;
+
+    /* Размеры */
+    --logo-size: 38px;
+}

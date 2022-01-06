@@ -1,0 +1,8 @@
+.logo {
+    background: url("../../images/logo.svg") no-repeat;
+    min-width: 38px;
+    min-height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

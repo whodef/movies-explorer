@@ -1,0 +1,55 @@
+.form-error {
+    padding: 4px;
+    opacity: 0;
+    font-family: 'Inter', 'Serif', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FF4062;
+    transition: opacity .4s linear, visibility .4s linear;
+    visibility: hidden;
+}
+
+.form-error_active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form-error_place_profile-edit {
+    align-self: center;
+    text-align: center;
+    width: 70%;
+    max-width: 1140px;
+}
+
+.form-error_place_input {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: -26px;
+    text-align: right;
+}
+
+.form-error_place_input-profile-edit {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    text-align: right;
+}
+
+.form-error_place_input-search {
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+    text-align: left;
+}
+
+.form-error_place_place_input {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: -26px;
+    text-align: right;
+}
