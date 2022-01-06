@@ -13,7 +13,7 @@ function Portfolio() {
                     <p className="portfolio__project-name">Адаптивный сайт</p>
                     <p className="portfolio__list-element">↗</p>
                 </a>
-                <a className="portfolio__link app__link" href="https://whodef.github.io/react-mesto-api-full/"
+                <a className="portfolio__link app__link" href="https://react-mesto-auth-theta.vercel.app/sign-up"
                    target="_blank" rel="noreferrer">
                     <p className="portfolio__project-name">Одностраничное приложение</p>
                     <p className="portfolio__list-element">↗</p>
